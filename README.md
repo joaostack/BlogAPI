@@ -4,12 +4,12 @@ Change default jwt secret key: [appsettings.json](https://github.com/joaostack/B
 
 Start migrations:
 ```
-dotnet-ef migrations add Initial
+dotnet ef migrations add Initial
 ```
 
 Update
 ```
-dotnet-ef database update
+dotnet ef database update
 ```
 
 Doc in `/swagger` (run in development mode)
