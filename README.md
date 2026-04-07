@@ -2,12 +2,17 @@
 Minimal API with authentication and blog posting
 Change default jwt secret key: [appsettings.json](https://github.com/joaostack/BlogAPI/blob/main/back-end/appsettings.json)
 
+Restore:
+```
+dotnet restore
+```
+
 Start migrations:
 ```
 dotnet ef migrations add Initial
 ```
 
-Update
+Update:
 ```
 dotnet ef database update
 ```
